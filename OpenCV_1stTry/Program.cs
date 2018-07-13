@@ -50,6 +50,9 @@ namespace OpenCV_1stTry
             {
                 //Если таковы найдены, то рисуем вокруг них круг, с заданным цветом и толщиной линии.
                 //image.Draw(face.rect, new Bgr(255, 255, 255), 10);
+
+                CvInvoke.DrawContours(image,, 1, new Bgr(255, 255, 255));
+
             }
 
             //image.ConvertTo(, DepthType.Cv8U);
@@ -80,6 +83,7 @@ namespace OpenCV_1stTry
             Mat img = new Mat(350, 350, DepthType.Cv8U, 3); //Create a 3 channel image of 400x200
             img.SetTo(new Bgr(150, 150, 0).MCvScalar); // set it to Blue color
 
+            
             //Draw "Hello, world." on the image using the specific font
             CvInvoke.PutText(
                img,
