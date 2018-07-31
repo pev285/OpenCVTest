@@ -30,7 +30,9 @@ namespace OpenCV_1stTry
             //SimpleCameraAndHelloWorld.SimpleCameraCapture();
             //SimpleCameraAndHelloWorld.ProcessCameraCapture();
 
-            SimpleShapesDetection.ShapeDetection();
+            //SimpleShapesDetection.ShapeDetection();
+
+            SimpleFaceDetection.DetectFaces();
 
         } // Main() //
 

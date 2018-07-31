@@ -68,13 +68,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BruteForceMatcher.cs" />
     <Compile Include="DoesNotWork.cs" />
     <Compile Include="FASTFeatureExample.cs" />
     <Compile Include="NumberDetector.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleCameraAndHelloWorld.cs" />
+    <Compile Include="SimpleFaceDetection.cs" />
     <Compile Include="SimpleShapesDetection.cs" />
     <Compile Include="SURFFeatureExample.cs" />
   </ItemGroup>
