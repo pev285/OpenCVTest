@@ -75,15 +75,15 @@ namespace OpenCV_1stTry
                        0.5,// TextSize
                        new Bgr(255, 0, 0).MCvScalar);
 
+                
 
 
-
-                viewer.Image = img;
+                viewer.Image = img.Flip(FlipType.Horizontal);
             });
             viewer.ShowDialog(); //show the image viewer
 
-            faceClassifier.Dispose();
-            eyesClassifier.Dispose();
+            //faceClassifier.Dispose();
+            //eyesClassifier.Dispose();
 
         } // DetectFaces() ///
 
